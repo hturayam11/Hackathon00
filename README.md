@@ -53,8 +53,8 @@ Responds to request from the frontend with data based on the endpoint they are c
 
 ###############################################
 
-# Project Title: 
+# Project Title: FoodnoWaste
 
-# Purpose: 
+# Purpose: prevent food waste
 
 # Team Members: 
