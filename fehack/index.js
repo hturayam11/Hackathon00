@@ -20,11 +20,12 @@ app.get("/", function (request, response) {
 
 
 app.post("/", function (request, response){
-   if (request.query.lang){
-    langs.push(req.query.lang)
-    ;}
-    response.send(langs)
-   
+   //if (request.query.lang){
+    //langs.push(req.query.lang)
+   // response.send(langs)
+   const body = request.body
+   console.log(body)
+   response.send(body.name)
 })
 
 app.put("/", function (request, response) {
